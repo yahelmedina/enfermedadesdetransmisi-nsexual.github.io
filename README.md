@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENFERMEDADES DE TRANSMISIÓN SEXUAL</title>
+    ENFERMEDADES DE TRANSMISIÓN SEXUAL
     <link rel="stylesheet" href="inicio.css">
 
 </head>
-<body>
+
   
 <div class="navbar">
   <h1> ENFERMEDADES DE TRANSMISIÓN SEXUAL</h1>
@@ -67,10 +67,10 @@
 </div>
   <script src="script.js"></script>
 
-</body>
+
 <img imagen1  src="imagenes/vih.jpg">
 <video width="500" height="400" controls>
 <source src="videos/transmicion.mp4" type="video/mp4">
   <source src="videos/transmicion.mp4" type="video/ogg">
 </video>
-</html>
+
