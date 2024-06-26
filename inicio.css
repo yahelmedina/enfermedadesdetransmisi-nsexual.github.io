@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(248, 92, 201);
+    
+    max-width: 1200px; /* Establece el ancho máximo para el cuerpo de la página */
+    margin: 0 auto; /* Centra el contenido horizontalmente dentro del límite */
+    padding: 0 20px; /* Agrega un relleno a los lados para evitar que el contenido se pegue a los bordes */
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  h2{
+    font-size: 40px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  li{
+    font-size: 40px;
+  }
+
+  img {
+    width: 350px; /* Ancho deseado de la imagen */
+    height: 250px; /* Altura deseada de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Establece los márgenes izquierdo y derecho como 'auto' para centrar horizontalmente */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+  .contenido-principal {
+    background: linear-gradient(40deg, rgb(253, 123, 214), rgb(255, 133, 218));
+   font-weight: bold;
+   color: black; /* Rojo brillante */
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+   font-size: 25px;
+   border: 2px solid black;
+   border-radius: 5px;
+   float: right;
+   width: 750px
+
+ }
+ 
+ 
+.recuadro-izquierda {
+ float: left;
+ font-size: 58px;
+ background: linear-gradient(40deg, rgba(112, 197, 247, 0.5), rgba(52, 202, 157, 0.5));
+ padding: 5px;
+ animation: entrada 1s ease-in-out;
+ border: 4px solid #ddd;
+ width: 400px;
+ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+  
+  .navbar {
+    overflow: hidden;
+    background: linear-gradient(40deg, #f86be5e0,#b90291cb);
+  
+  }
+  
+  .dropdown {
+    float: right;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6c11c2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(253, 251, 251);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .show {display:block;}
+  video{
+    display: block;
+    margin: 0 auto;
+  }
